@@ -39,7 +39,7 @@ export default function App() {
       setLoading(true);
 
       const res = await axios.post(
-        "https://loan-prediction-system-4cwk.onrender.com",
+        "https://loan-prediction-system-4cwk.onrender.com/predict",
         formData
       );
 
